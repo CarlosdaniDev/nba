@@ -71,7 +71,15 @@
     img {
         width: 20px;
     }
-
+    .playoffs {
+        background-color: rgb(20, 240, 20);
+    }
+    .playin {
+        background-color: rgb(19, 19, 223);
+    }
+   .fora {
+    background-color: red;
+   }
     #leste {
 
         font-family: Georgia, Times, 'Times New Roman', serif;
@@ -100,6 +108,9 @@
         top: -1px;
         background-color: black;
         color: var(--cor6--);
+    }
+    tbody > tr:nth-child(2n) {
+background-color: #C9D6EA;
     }
     th#sequencia {
         width: 5vw;
