@@ -1,0 +1,158 @@
+:root { 
+        
+        --cor2--: #B8C4BB;
+        --cor3--: #C9D6EA;
+        --cor5--: #F17F29;
+        --cor6--:white;
+}
+
+    body {
+        background-color:var(--cor3--);
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+    }
+
+    header {
+        background-color: black;
+        margin: 0;
+        padding: 10px;
+   
+    }
+    h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: #1D428A;
+     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.337);
+     padding: 10px;
+     text-align: center;
+     font-weight: bold;
+    
+    }
+
+    nav {
+        color: var(--cor6--);
+        padding: 10px;
+        text-align: end;
+      
+    }
+
+    header > nav > a {
+        text-decoration: none;
+        color: var(--cor6--);
+        padding: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 0.7em;
+        font-weight: bold;
+    }
+
+    table {
+        margin: auto;
+        width: 90vw;
+        margin-top: 40px;
+        border: 1px solid rgba(0, 0, 0, 0.684);
+        border-collapse: collapse;
+        background-color: var(--cor6--);
+        margin-bottom: 50px;
+       
+
+    }
+
+    thead {
+        text-align: center;
+
+    }
+
+    
+    tr,
+    td {
+        border: 1px solid rgba(0, 0, 0, 0.563);
+        font-size: 12px;
+    }
+
+    img {
+        width: 20px;
+    }
+
+    #leste {
+
+        font-family: Georgia, Times, 'Times New Roman', serif;
+
+    }
+
+    #oeste {
+
+
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+    caption {
+        background-color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight:bold;
+        font-size: 1.2em;
+        color: var(--cor6--);
+    }
+    
+    tbody> tr:hover {
+        background-color: var(--cor3--);
+    }
+    thead > tr {
+        position: sticky;
+        top: -1px;
+        background-color: black;
+        color: var(--cor6--);
+    }
+    th#sequencia {
+        width: 5vw;
+    }
+    aside {
+        margin: 0;
+        text-align: center;
+        padding: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+       
+    }
+    h2 {
+        padding: 10px;
+        background-color: var(--cor6--);
+        width: 90vw;
+        margin: auto;
+        border-radius: 5px 5px 0 0 ;
+    }
+    section#mvp {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: var(--cor6--);
+        width: 90vw;
+        margin: auto;
+        border-radius: 0 0 10px 10px;
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+    div > p {
+       width: 30vw;
+        margin:0 ;
+        color: black;
+
+      
+    }
+    section > div>  img {
+       width: 25vw;
+        border-radius: 15px;
+        padding: 0px;
+        box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.401);;
+    }
+  a {
+    color: #1D428A;
+    text-decoration: none;
+
+ }
+    
+   footer {
+    background-color: black;
+    color: var(--cor6--);
+    margin: 0;
+    padding: 2px;
+    text-align: center;
+    font-size: 12px;
+   }
