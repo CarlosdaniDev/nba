@@ -7,7 +7,7 @@
 }
 
     body {
-        background-color:var(--cor3--);
+        background-color: var(--cor6--);
         font-family: Arial, Helvetica, sans-serif;
         margin: 0;
     }
@@ -20,7 +20,7 @@
     }
     h1 {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-     color: #1D428A;
+     color: black;
      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.337);
      padding: 10px;
      text-align: center;
@@ -118,22 +118,23 @@ background-color: #C9D6EA;
     aside {
         margin: 0;
         text-align: center;
-        padding: 5px;
+        padding: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: black;
        
     }
     h2 {
         padding: 10px;
-        background-color: var(--cor6--);
+        background-color: black;
         width: 90vw;
         margin: auto;
         border-radius: 5px 5px 0 0 ;
+        color: white;
     }
     section#mvp {
         display: flex;
         flex-wrap: wrap;
-        background-color: var(--cor6--);
+        background-color: black;
         width: 90vw;
         margin: auto;
         border-radius: 0 0 10px 10px;
@@ -143,19 +144,29 @@ background-color: #C9D6EA;
     div > p {
        width: 30vw;
         margin:0 ;
-        color: black;
+        color: var(--cor6--);
+        padding-top: 20px;
+        font-size: 0.8em;
 
-      
+    }
+
+    div{
+        padding-top: 30px;
     }
     section > div>  img {
        width: 25vw;
+       margin: 0;
         border-radius: 15px;
         padding: 0px;
-        box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.401);;
+        box-shadow: 1px 2px 5px rgba(142, 162, 233, 0.401);;
     }
+
+    
   a {
-    color: #1D428A;
+    color: #ffffff;
     text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
 
  }
     
